@@ -86,7 +86,9 @@
       "requires": [],
       "optional": [],
       "provides": [],
-      "environment": {}
+      "environment": {
+        "mcp": "claude-browser-bridge"
+      }
     },
     {
       "name": "cardwatch",
