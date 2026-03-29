@@ -133,6 +133,31 @@
       "grants": {
         "notification": ["send_notification"]
       }
+    },
+    {
+      "name": "notify-email",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/notify-email"
+      },
+      "description": "Email notifications via Gmail SMTP. Implements the notification capability contract.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["notification", "email", "gmail", "smtp"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["notification"],
+      "environment": {
+        "mcp": "Gmail"
+      },
+      "grants": {
+        "notification": ["send_notification"]
+      }
     }
   ]
 }
