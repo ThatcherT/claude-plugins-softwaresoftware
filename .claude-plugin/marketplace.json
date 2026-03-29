@@ -54,6 +54,22 @@
       "license": "MIT",
       "keywords": ["reddit", "audience-research", "market-research"],
       "category": "research"
+    },
+    {
+      "name": "cardwatch",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/cardwatch"
+      },
+      "description": "Pokemon card stock monitor. Tracks inventory at 7 major retailers, auto-enters virtual queues, sends phone + desktop notifications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://cardwatch.nov.solutions",
+      "license": "MIT",
+      "keywords": ["pokemon", "tcg", "stock-monitor", "queue", "retail", "notifications"],
+      "category": "utilities"
     }
   ]
 }
