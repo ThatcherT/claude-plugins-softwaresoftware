@@ -1,0 +1,16 @@
+{
+  "name": "social-posting-reddit",
+  "description": "Post content to Reddit subreddits via browser automation. Provider handles data tracking, rate limiting, and performance metrics. Browser automation is agent-driven via browser-bridge. Consumers describe what to post — Claude uses the provider tools for data operations and browser-bridge for interaction.",
+  "version": "1.0.0",
+  "behavior": {
+    "input": "Subreddit name, title, body text, post URL after submission, optional flair. Metrics as upvote/comment counts.",
+    "output": "Rate limit status, recorded post details, or performance snapshots. Never silently fail.",
+    "deterministic": "Data operations must succeed or return explicit failure. Rate limits enforced in plugin."
+  },
+  "hints": {
+    "source": {
+      "type": "string",
+      "description": "Name of the plugin or agent that generated the content"
+    }
+  }
+}

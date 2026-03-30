@@ -326,6 +326,28 @@
       "environment": {
         "mcp": "desktop-channel"
       }
+    },
+    {
+      "name": "reddit-poster",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/reddit-poster"
+      },
+      "description": "Reddit posting data layer with rate limiting and performance tracking. Browser automation agent-driven via browser-bridge.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["reddit", "social-posting", "content", "browser-bridge"],
+      "category": "provider",
+      "requires": [],
+      "optional": ["human-approval"],
+      "provides": ["social-posting-reddit"],
+      "environment": {
+        "mcp": "claude-browser-bridge"
+      }
     }
   ]
 }
