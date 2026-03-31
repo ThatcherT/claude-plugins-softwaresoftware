@@ -1,6 +1,6 @@
 # CLAUDE.md — claude-plugin-marketplace (marketplace registry)
 
-This is the `claude-plugins-nov` marketplace registry (`ThatcherT/claude-plugins-nov`). Not a plugin itself — it lists all published plugins for discovery.
+This is the `nov-plugins` marketplace registry (`ThatcherT/claude-plugins-nov`). Not a plugin itself — it lists all published plugins for discovery.
 
 ## Key Files
 
@@ -52,10 +52,6 @@ Run from the **plugin's own directory**, not here.
 
 When `marketplace.json` changes (new plugin, version bump, description update), update `../staticsites/plugins.nov.solutions/` to match and deploy with `/liteframe:local-deploy`.
 
-## Capability Contracts
+## Capability System
 
-Contracts in `capabilities/*.json` are semantic — they describe behavior, not tool signatures. Each has `name`, `version`, `behavior` (input/output/determinism), and `hints` (optional sideband registry).
-
-Contracts do NOT mandate tool names. Providers implement the capability with whatever tools make sense. Claude figures out which installed tool satisfies the capability at runtime based on the contract description and available tools.
-
-To add a new capability: create `capabilities/<name>.json` in this repo, then add providers to marketplace.json with `provides` and `environment` conditions.
+Plugins declare dependencies on capabilities via `requires`/`provides` fields in marketplace.json. nov-dependency-resolver handles resolution. To add a new capability: add providers to marketplace.json with `provides` and `environment` conditions.
