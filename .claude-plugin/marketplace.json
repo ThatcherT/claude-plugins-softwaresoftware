@@ -295,9 +295,9 @@
       "license": "MIT",
       "keywords": ["agent", "autonomous", "background", "task", "tmux", "channel"],
       "category": "framework",
-      "requires": [],
+      "requires": ["terminal-ops"],
       "optional": ["conversation"],
-      "provides": [],
+      "provides": ["agent-spawning"],
       "environment": {
         "os": "linux",
         "binary": "tmux"
@@ -429,6 +429,48 @@
       "requires": ["browser-automation"],
       "optional": ["human-approval"],
       "provides": ["social-posting-reddit"],
+      "environment": {}
+    },
+    {
+      "name": "tmux-session",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/tmux-session"
+      },
+      "description": "Terminal session management via tmux. Create, monitor, and control detached terminal sessions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["tmux", "terminal", "session", "provider"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["terminal-ops"],
+      "environment": {
+        "binary": "tmux"
+      }
+    },
+    {
+      "name": "plugin-tester",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/plugin-tester"
+      },
+      "description": "Automated end-to-end testing of plugin install workflows. Spawns test sessions, monitors results, reports pass/fail.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["testing", "e2e", "plugins", "install", "automation"],
+      "category": "development",
+      "requires": ["agent-spawning"],
+      "optional": [],
+      "provides": [],
       "environment": {}
     }
   ]
