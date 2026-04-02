@@ -14,7 +14,7 @@
         "repo": "ThatcherT/nov-dependency-resolver"
       },
       "description": "Plugin dependency resolver — detects environment, resolves capabilities, auto-selects providers, generates install plans.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Thatcher"
       },
@@ -180,7 +180,7 @@
         "repo": "ThatcherT/termux-remote"
       },
       "description": "Remote phone capabilities via Termux HTTP bridge. Notifications and SMS through a single connection.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
@@ -202,7 +202,7 @@
         "repo": "ThatcherT/notify-slack"
       },
       "description": "Slack notifications via incoming webhooks.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
@@ -222,7 +222,7 @@
         "repo": "ThatcherT/notify-email"
       },
       "description": "Email notifications via Gmail SMTP. Implements the notification capability contract.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
@@ -328,7 +328,7 @@
         "repo": "ThatcherT/termux-conversation"
       },
       "description": "Conversation provider via Termux notifications with inline reply. Routes replies back to agent channels.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
