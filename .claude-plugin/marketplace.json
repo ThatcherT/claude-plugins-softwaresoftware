@@ -512,19 +512,19 @@
       "environment": {}
     },
     {
-      "name": "fork",
+      "name": "tangent",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/claude-fork"
+        "repo": "ThatcherT/tangent"
       },
-      "description": "Fork the current conversation into a new interactive Claude Code session with a focused context brief.",
+      "description": "Spawn a focused side session in a new terminal with a context brief from the current conversation.",
       "version": "1.0.0",
       "author": {
         "name": "Thatcher"
       },
       "homepage": "https://plugins.nov.solutions",
       "license": "MIT",
-      "keywords": ["fork", "context", "session", "workflow", "conversation"],
+      "keywords": ["tangent", "context", "session", "workflow", "conversation"],
       "category": "utilities",
       "requires": [],
       "optional": ["terminal-ops"],
