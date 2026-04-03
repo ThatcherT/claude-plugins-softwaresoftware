@@ -530,6 +530,126 @@
       "optional": [],
       "provides": [],
       "environment": {}
+    },
+    {
+      "name": "payment-vault",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/payment-vault"
+      },
+      "description": "Secure payment data provider. Stores credit/debit card info and fills payment forms without exposing raw values to conversation context.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["data-provider", "vault", "payment", "secure-fill"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["payment-information"],
+      "environment": {}
+    },
+    {
+      "name": "address-vault",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/address-vault"
+      },
+      "description": "Secure address data provider. Stores complete address info and fills forms without exposing raw values to conversation context.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["data-provider", "vault", "address", "secure-fill"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["address"],
+      "environment": {}
+    },
+    {
+      "name": "contacts-vault",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/contacts-vault"
+      },
+      "description": "Secure contacts data provider. Stores contact info and fills forms without exposing raw values to conversation context.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["data-provider", "vault", "contacts", "secure-fill"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["contacts"],
+      "environment": {}
+    },
+    {
+      "name": "vehicle-vault",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/vehicle-vault"
+      },
+      "description": "Secure vehicle data provider. Stores VIN, plate, insurance info and fills forms without exposing raw values to conversation context.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["data-provider", "vault", "vehicle", "secure-fill"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["vehicle-info"],
+      "environment": {}
+    },
+    {
+      "name": "identity-vault",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/identity-vault"
+      },
+      "description": "Secure identity document provider. Stores SSN, driver's license, passport info and fills forms without exposing raw values to conversation context.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["data-provider", "vault", "identity", "secure-fill"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["identity-documents"],
+      "environment": {}
+    },
+    {
+      "name": "banking-vault",
+      "source": {
+        "source": "github",
+        "repo": "ThatcherT/banking-vault"
+      },
+      "description": "Secure banking data provider. Stores routing/account numbers and fills forms without exposing raw values to conversation context.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.nov.solutions",
+      "license": "MIT",
+      "keywords": ["data-provider", "vault", "banking", "secure-fill"],
+      "category": "provider",
+      "requires": [],
+      "optional": [],
+      "provides": ["banking-info"],
+      "environment": {}
     }
   ]
 }
