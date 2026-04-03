@@ -314,7 +314,7 @@
       "keywords": ["agent", "autonomous", "background", "task", "tmux", "channel"],
       "category": "framework",
       "requires": ["terminal-ops"],
-      "optional": ["conversation"],
+      "optional": [],
       "provides": ["agent-spawning"],
       "environment": {
         "os": "linux",
