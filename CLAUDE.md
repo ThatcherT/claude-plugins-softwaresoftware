@@ -1,6 +1,6 @@
 # CLAUDE.md — claude-plugin-marketplace (marketplace registry)
 
-This is the `softwaresoftware-plugins` marketplace registry (`ThatcherT/claude-plugins-softwaresoftware`). Not a plugin itself — it lists all published plugins for discovery.
+This is the `softwaresoftware-plugins` marketplace registry (`softwaresoftware-dev/softwaresoftware-marketplace`). Not a plugin itself — it lists all published plugins for discovery.
 
 ## Key Files
 
