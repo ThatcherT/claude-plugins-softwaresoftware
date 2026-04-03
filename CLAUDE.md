@@ -50,7 +50,7 @@ Run from the **plugin's own directory**, not here.
 
 `plugins.nov.solutions` is the web face of this marketplace registry. Its content should reflect `marketplace.json` — plugin cards, versions, descriptions, install commands, and "Learn more" links to each plugin's dedicated site.
 
-When `marketplace.json` changes (new plugin, version bump, description update), update `../staticsites/plugins.nov.solutions/` to match and deploy with `/liteframe:local-deploy`.
+When `marketplace.json` changes (new plugin, version bump, description update), update `../staticsites/plugins.nov.solutions/` to match and deploy with `/liteframe:deploy`.
 
 ## Capability System
 

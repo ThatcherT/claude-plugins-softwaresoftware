@@ -42,7 +42,7 @@
       "license": "MIT",
       "keywords": ["saas", "scaffolding", "django", "nextjs", "deployment"],
       "category": "development",
-      "requires": ["docker-dev-environment", "local-deploy"],
+      "requires": ["docker-dev-environment", "deploy"],
       "optional": [],
       "provides": [],
       "environment": {}
@@ -82,7 +82,7 @@
       "license": "MIT",
       "keywords": ["static", "html", "landing-page", "deployment"],
       "category": "development",
-      "requires": ["local-deploy", "design-system"],
+      "requires": ["deploy", "design-system"],
       "optional": ["browser-automation"],
       "provides": [],
       "built_in_capabilities": ["static-site-build"],
@@ -402,7 +402,7 @@
       "category": "provider",
       "requires": [],
       "optional": [],
-      "provides": ["local-deploy"],
+      "provides": ["deploy"],
       "environment": {
         "binary": ["nginx", "cloudflared"]
       }
