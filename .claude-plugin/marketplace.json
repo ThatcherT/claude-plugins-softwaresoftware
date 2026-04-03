@@ -1,24 +1,24 @@
 {
-  "name": "nov-plugins",
+  "name": "softwaresoftware-plugins",
   "owner": {
     "name": "Thatcher"
   },
   "metadata": {
-    "description": "Claude Code plugins by nov.solutions"
+    "description": "Claude Code plugins by softwaresoftware.dev"
   },
   "plugins": [
     {
-      "name": "nov-dependency-resolver",
+      "name": "softwaresoftware",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/nov-dependency-resolver"
+        "repo": "ThatcherT/softwaresoftware"
       },
       "description": "Plugin dependency resolver — detects environment, resolves capabilities, auto-selects providers, generates install plans.",
       "version": "1.0.2",
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["dependencies", "resolver", "capabilities", "framework"],
       "category": "framework",
@@ -38,7 +38,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["saas", "scaffolding", "django", "nextjs", "deployment"],
       "category": "development",
@@ -48,17 +48,17 @@
       "environment": {}
     },
     {
-      "name": "nov-design-system",
+      "name": "softwaresoftware-design-system",
       "source": {
         "source": "github",
-        "repo": "ThatcherT/nov-design-system"
+        "repo": "ThatcherT/softwaresoftware-design-system"
       },
-      "description": "Design system for nov.solutions — warm dark palette, three-font typography, component standards.",
+      "description": "Design system for softwaresoftware.dev — warm dark palette, three-font typography, component standards.",
       "version": "1.0.0",
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://nov-design-system.nov.solutions",
+      "homepage": "https://nov-design-system.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["design-system", "css", "typography", "dark-theme", "components"],
       "category": "provider",
@@ -78,7 +78,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["static", "html", "landing-page", "deployment"],
       "category": "development",
@@ -99,7 +99,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["reddit", "audience-research", "market-research"],
       "category": "research",
@@ -119,7 +119,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://cardwatch.nov.solutions",
+      "homepage": "https://cardwatch.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["pokemon", "tcg", "stock-monitor", "queue", "retail", "notifications"],
       "category": "utilities",
@@ -139,7 +139,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["notification", "linux", "desktop", "notify-send"],
       "category": "provider",
@@ -162,7 +162,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["notification", "windows", "desktop", "toast"],
       "category": "provider",
@@ -184,7 +184,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["termux", "android", "phone", "notification", "sms", "remote"],
       "category": "provider",
@@ -206,7 +206,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["notification", "slack", "webhook"],
       "category": "provider",
@@ -226,7 +226,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["notification", "email", "gmail", "smtp"],
       "category": "provider",
@@ -246,7 +246,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["scheduling", "cron", "agent", "recurring"],
       "category": "provider",
@@ -269,7 +269,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["approval", "human-in-the-loop", "conversation"],
       "category": "provider",
@@ -289,7 +289,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["memory", "persistence", "agent", "knowledge"],
       "category": "provider",
@@ -309,7 +309,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["agent", "autonomous", "background", "task", "tmux", "channel"],
       "category": "framework",
@@ -332,7 +332,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["conversation", "termux", "notification", "reply", "phone"],
       "category": "provider",
@@ -354,7 +354,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["daemon", "background", "ipc", "lifecycle", "process"],
       "category": "provider",
@@ -376,7 +376,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["browser", "websocket", "extension", "automation"],
       "category": "provider",
@@ -391,12 +391,12 @@
         "source": "github",
         "repo": "ThatcherT/nginx-cloudflare-deploy"
       },
-      "description": "Deploy local services and static sites to public HTTPS URLs via Nginx reverse proxy and Cloudflare Tunnel.",
-      "version": "1.0.0",
+      "description": "Deploy local services and static sites to public HTTPS URLs via Nginx reverse proxy and Cloudflare Tunnel. Guided setup with persistent config.",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["deploy", "nginx", "cloudflare", "tunnel", "reverse-proxy", "self-hosted"],
       "category": "provider",
@@ -418,7 +418,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["docker", "compose", "dev-environment", "port-allocation", "containers"],
       "category": "provider",
@@ -440,7 +440,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["reddit", "social-posting", "content", "browser-bridge"],
       "category": "provider",
@@ -460,7 +460,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["tmux", "terminal", "session", "provider"],
       "category": "provider",
@@ -482,7 +482,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["testing", "e2e", "plugins", "install", "automation"],
       "category": "development",
@@ -502,7 +502,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["security", "prompt-injection", "defense", "guardrails"],
       "category": "utilities",
@@ -522,7 +522,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["development", "testing", "plugins", "iteration", "e2e"],
       "category": "toolkit",
@@ -542,7 +542,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["data-provider", "vault", "payment", "secure-fill"],
       "category": "provider",
@@ -562,7 +562,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["data-provider", "vault", "address", "secure-fill"],
       "category": "provider",
@@ -582,7 +582,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["data-provider", "vault", "contacts", "secure-fill"],
       "category": "provider",
@@ -602,7 +602,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["data-provider", "vault", "vehicle", "secure-fill"],
       "category": "provider",
@@ -622,7 +622,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["data-provider", "vault", "identity", "secure-fill"],
       "category": "provider",
@@ -642,7 +642,7 @@
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.nov.solutions",
+      "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["data-provider", "vault", "banking", "secure-fill"],
       "category": "provider",
@@ -657,12 +657,12 @@
         "source": "github",
         "repo": "ThatcherT/tokenboard"
       },
-      "description": "Token usage leaderboard — calculates Claude Code API cost equivalent and uploads to the public leaderboard at tokenboard.nov.solutions.",
+      "description": "Token usage leaderboard — calculates Claude Code API cost equivalent and uploads to the public leaderboard at tokenboard.softwaresoftware.dev.",
       "version": "1.0.0",
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://tokenboard.nov.solutions",
+      "homepage": "https://tokenboard.softwaresoftware.dev",
       "license": "MIT",
       "keywords": ["tokens", "usage", "leaderboard", "stats", "cost"],
       "category": "utilities",
