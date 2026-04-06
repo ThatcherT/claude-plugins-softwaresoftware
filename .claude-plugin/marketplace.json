@@ -344,7 +344,7 @@
       "category": "provider",
       "requires": [],
       "optional": [],
-      "provides": ["conversation"],
+      "provides": ["channel"],
       "environment": {
         "mcp": "desktop-channel"
       }
