@@ -8,12 +8,6 @@
     "deterministic": "Delivery must succeed or return explicit failure — never silently drop"
   },
   "hints": {
-    "urgency": {
-      "type": "string",
-      "enum": ["low", "normal", "critical"],
-      "default": "normal",
-      "description": "Urgency level — provider maps to appropriate channels and priority"
-    },
     "url": {
       "type": "string",
       "description": "Related URL for context (e.g., product link, dashboard)"
