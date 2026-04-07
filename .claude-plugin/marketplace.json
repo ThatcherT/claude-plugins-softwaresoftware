@@ -118,16 +118,16 @@
       "name": "gummymine",
       "source": {
         "source": "github",
-        "repo": "softwaresoftware-dev/gummymine"
+        "repo": "softwaresoftware-dev/gummymine-plugin"
       },
-      "description": "Reddit audience research. Scrapes subreddits for complaints, requests, and gaps.",
-      "version": "2.0.0",
+      "description": "Reddit audience research — mine subreddits for demand signals via gummymine.softwaresoftware.dev",
+      "version": "3.0.0",
       "author": {
         "name": "Thatcher"
       },
-      "homepage": "https://plugins.softwaresoftware.dev",
+      "homepage": "https://gummymine.softwaresoftware.dev",
       "license": "MIT",
-      "keywords": ["reddit", "audience-research", "market-research"],
+      "keywords": ["reddit", "audience-research", "demand-signals", "market-research"],
       "category": "research",
       "requires": ["browser-automation"],
       "optional": [],
