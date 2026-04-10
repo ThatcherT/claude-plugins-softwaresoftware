@@ -854,6 +854,26 @@
       "optional": [],
       "provides": [],
       "environment": {}
+    },
+    {
+      "name": "knowledge-base",
+      "source": {
+        "source": "github",
+        "repo": "softwaresoftware-dev/knowledge-base"
+      },
+      "description": "Obsidian-powered knowledge base that Claude maintains across sessions. Tracks project status, decisions, infrastructure, and cross-project relationships in a browsable wiki.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://knowledge-base.softwaresoftware.dev",
+      "license": "MIT",
+      "keywords": ["knowledge-base", "obsidian", "wiki", "memory", "notes", "projects"],
+      "category": "utilities",
+      "requires": [],
+      "optional": [],
+      "provides": [],
+      "environment": {}
     }
   ]
 }
