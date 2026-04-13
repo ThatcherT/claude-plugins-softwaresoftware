@@ -841,17 +841,17 @@
         "source": "github",
         "repo": "softwaresoftware-dev/gmail-mcp"
       },
-      "description": "MCP server for Gmail — read, search, label, filter, and archive emails. No delete capability by design.",
-      "version": "1.0.0",
+      "description": "MCP server for Gmail — read, search, label, filter, send, and archive emails. Requires human approval before sending. No delete capability by design.",
+      "version": "1.1.0",
       "author": {
         "name": "Thatcher"
       },
       "homepage": "https://gmail-mcp.softwaresoftware.dev",
       "license": "MIT",
-      "keywords": ["gmail", "email", "mcp", "organize", "labels", "filters"],
+      "keywords": ["gmail", "email", "mcp", "organize", "labels", "filters", "send"],
       "category": "utilities",
       "requires": [],
-      "optional": [],
+      "optional": ["human-approval"],
       "provides": [],
       "environment": {}
     },
