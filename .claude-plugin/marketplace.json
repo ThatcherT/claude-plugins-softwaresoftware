@@ -262,29 +262,6 @@
       "environment": {}
     },
     {
-      "name": "scheduler-cron",
-      "source": {
-        "source": "github",
-        "repo": "softwaresoftware-dev/scheduler-cron"
-      },
-      "description": "Cron-based task scheduling for autonomous agents. Implements the scheduling capability contract.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Thatcher"
-      },
-      "homepage": "https://plugins.softwaresoftware.dev",
-      "license": "MIT",
-      "keywords": ["scheduling", "cron", "agent", "recurring"],
-      "category": "provider",
-      "requires": [],
-      "optional": [],
-      "provides": ["scheduling"],
-      "environment": {
-        "os": "linux",
-        "binary": "crontab"
-      }
-    },
-    {
       "name": "approval-channel",
       "source": {
         "source": "github",
@@ -330,18 +307,19 @@
         "source": "github",
         "repo": "softwaresoftware-dev/taskpilot"
       },
-      "description": "Spawn and manage long-running autonomous Claude Code sessions. kind=service agents survive reboots via systemd. Channel-based communication, crash recovery, operating briefs.",
-      "version": "0.3.0",
+      "description": "Spawn and manage long-running autonomous Claude Code sessions. kind=service agents survive reboots via systemd. Channel-based communication, crash recovery, operating briefs, built-in cron scheduling.",
+      "version": "0.4.0",
       "author": {
         "name": "Thatcher"
       },
       "homepage": "https://plugins.softwaresoftware.dev",
       "license": "MIT",
-      "keywords": ["agent", "autonomous", "background", "task", "tmux", "channel"],
+      "keywords": ["agent", "autonomous", "background", "task", "tmux", "channel", "scheduling", "cron"],
       "category": "framework",
       "requires": ["terminal-ops"],
       "optional": [],
       "provides": ["agent-spawning"],
+      "built_in_capabilities": ["scheduling"],
       "environment": {
         "os": "linux",
         "binary": "tmux"
