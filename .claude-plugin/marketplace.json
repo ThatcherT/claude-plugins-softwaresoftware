@@ -852,6 +852,26 @@
       "optional": [],
       "provides": [],
       "environment": {}
+    },
+    {
+      "name": "browser-qa",
+      "source": {
+        "source": "github",
+        "repo": "softwaresoftware-dev/browser-qa"
+      },
+      "description": "Visual QA for web apps — screenshot, verify consistency, test interactivity, catch regressions",
+      "version": "0.1.0",
+      "author": {
+        "name": "Thatcher"
+      },
+      "homepage": "https://plugins.softwaresoftware.dev",
+      "license": "MIT",
+      "keywords": ["qa", "testing", "visual", "browser", "review", "ui"],
+      "category": "toolkit",
+      "requires": ["browser-automation"],
+      "optional": [],
+      "provides": [],
+      "environment": {}
     }
   ]
 }
